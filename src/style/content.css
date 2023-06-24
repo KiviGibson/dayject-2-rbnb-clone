@@ -1,0 +1,35 @@
+.content{
+ width: 90%;
+ margin: auto;
+}
+.content h1{
+    font-weight: 400;
+    margin: 4px;
+    margin-top: 4px;
+}
+.content h4{
+    margin: 4px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+}
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.offers{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+}
+@media screen and (max-width:600px) {
+    .offers{
+        grid-template-columns: auto auto!important;
+    }
+}
+
